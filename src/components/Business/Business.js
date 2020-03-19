@@ -4,6 +4,7 @@ import './Business.css';
 
 class Business extends React.Component {
 render (){
+  //how is this.props grabbing the business object from App.js, doesn't that need to be imported first?
     const {business} = this.props;
     return (<div class="Business">
     <div className="image-container">
