@@ -12,7 +12,7 @@ render (){
     <h2>{business.name}</h2>
     <div className="Business-information">
       <div className="Business-address">
-        <p><a href='`https://www.google.com/maps/place/${business.address},${business.city},+${business.state}+${business.zipCode}/`'>{business.address}</a></p>
+        <p><a target="_blank" href='`https://www.google.com/maps/place/${business.address},${business.city},+${business.state}+${business.zipCode}/`'>{business.address}</a></p>
         <p>{business.city}</p>
         <p>{business.state},{business.zipCode}</p>
       </div>
